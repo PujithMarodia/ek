@@ -1,0 +1,1600 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    
+     background-color: #0f0f0f;
+     color: white;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+html {
+    
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Playfair Display black', serif;
+}
+
+h2 {  
+    font-family: 'Roboto light', sans-serif;
+}
+
+p {
+     font-family: 'Roboto light', sans-serif;
+}
+
+a {
+    font-family: 'Roboto light', sans-serif;
+   
+}
+
+img {
+    width: 100%;
+}
+
+img.logo {
+    
+max-width:3.7em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    margin-left: 60px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.home{
+   
+    margin: 0px 80px 0px 80px; 
+    
+}
+
+.landing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 7%;
+    margin-top: 11%;
+    margin-bottom: 11%;
+}
+
+.illustration{
+    width: 100%;
+}
+
+.mainh {
+    font-size: 3em;
+    margin-bottom: 6%;
+}
+
+.mainp{
+    
+    font-size: 2em;
+    margin-bottom: 10%;
+}
+
+.btn{
+    
+    display: inline;
+    font-size: 1.5em;
+    border: 2px solid white;
+    padding: 15px 27px 15px 27px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    color: #110f14;
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+#Elements {
+    
+     margin: 0px 80px 0px 80px; 
+}
+
+.mainh2 {
+    
+     font-size: 3em;
+    margin-bottom: 3%;
+}
+
+.mainp2 {
+    
+     font-size: 2em;
+    margin-bottom: 8%;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 5%;
+}
+
+.p1:hover {
+    transform: scale(1.1);
+}
+
+.p1 {
+    transition: 0.2s ease-in-out;
+}
+
+.p2:hover {
+    transform: scale(1.1);
+}
+
+.p2 {
+    transition: 0.2s ease-in-out;
+}
+
+.p3:hover {
+    transform: scale(1.1);
+}
+
+.p3 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.p4:hover {
+    transform: scale(1.1);
+}
+
+.p4 {
+    transition: 0.2s ease-in-out;
+}
+
+.p5:hover {
+    transform: scale(1.1);
+}
+
+.p5 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.grid2 {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 8%;
+}
+
+#Contact {
+    
+     margin: 0px 80px 0px 80px; 
+}
+
+.mainp3 {
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+.social li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 1.2em;
+    font-size: 1.8em;
+}
+
+.social {
+    margin-bottom: 9%;
+}
+
+.social a:hover{
+    text-decoration: line-through;
+    color: white;
+}
+
+a {
+    text-decoration: line-through;
+    color: white;
+}
+
+
+
+
+@media (max-width: 600px) {
+    
+ img.logo {
+    
+max-width:2.8em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    margin-left: 40px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.home{
+   
+    margin: 0px 40px 0px 40px; 
+    
+}
+
+.landing {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10%;
+    margin-top: 20%;
+    margin-bottom: 30%;
+}
+
+.illustration{
+    max-width: 22em;
+}
+
+.mainh {
+    font-size: 2.4em;
+    margin-bottom: 9%;
+}
+
+.mainp{
+    
+    font-size: 1.4em;
+    margin-bottom: 12%;
+}
+
+.btn{
+    
+    display: inline;
+    font-size: 1.4em;
+    border: 2px solid white;
+    padding:  10px 20px 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    color: #110f14;
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+#Elements {
+    
+     margin: 0px 40px 0px 40px; 
+}
+
+.mainh2 {
+    
+     font-size: 2.4em;
+    margin-bottom: 9%;
+}
+
+.mainp2 {
+    
+     font-size: 1.4em;
+    margin-bottom: 10%;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 5%;
+    padding: 10% 10% 10% 10%;
+}
+    
+.p1:hover {
+    transform: scale(1.1);
+}
+
+.p1 {
+    transition: 0.2s ease-in-out;
+}
+
+.p2:hover {
+    transform: scale(1.1);
+}
+
+.p2 {
+    transition: 0.2s ease-in-out;
+}
+
+.p3:hover {
+    transform: scale(1.1);
+}
+
+.p3 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.p4:hover {
+    transform: scale(1.1);
+}
+
+.p4 {
+    transition: 0.2s ease-in-out;
+}
+
+.p5:hover {
+    transform: scale(1.1);
+}
+
+.p5 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.grid2 {
+    
+    display: none;
+}
+
+#Contact {
+    
+     margin: 0px 40px 0px 40px; 
+}
+
+.mainp3 {
+    font-size: 1.4em;
+    margin-bottom: 10%;
+}
+
+.social li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin-right: .8em;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+.social {
+    margin-bottom: 30%;
+}
+
+.social a:hover{
+    text-decoration: line-through;
+    color: white;
+}
+
+a {
+    text-decoration: line-through;
+    color: white;
+}
+    
+}
+
+
+
+
+@media (min-width: 600px) {
+    
+img.logo {
+    
+max-width:3em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    margin-left: 40px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.home{
+   
+    margin: 0px 60px 0px 60px; 
+    
+}
+
+.landing {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10%;
+    margin-top: 17%;
+    margin-bottom: 27%;
+}
+
+.illustration{
+    width: 100%; 
+}
+
+.mainh {
+    font-size: 2.7em;
+    margin-bottom: 8%;
+}
+
+.mainp{
+    
+    font-size: 1.7em;
+    margin-bottom: 11%;
+}
+
+.btn{
+    
+    display: inline;
+    font-size: 1.7em;
+    border: 2px solid white;
+    padding:  12px 22px 12px 22px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    color: #110f14;
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+#Elements {
+    
+     margin: 0px 60px 0px 60px; 
+}
+
+.mainh2 {
+    
+     font-size: 2.7em;
+    margin-bottom: 8%;
+}
+
+.mainp2 {
+    
+     font-size: 1.7em;
+    margin-bottom: 8%;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 4%;
+    padding: 17% 17% 17% 17%;
+}
+    
+.p1:hover {
+    transform: scale(1.1);
+}
+
+.p1 {
+    transition: 0.2s ease-in-out;
+}
+
+.p2:hover {
+    transform: scale(1.1);
+}
+
+.p2 {
+    transition: 0.2s ease-in-out;
+}
+
+.p3:hover {
+    transform: scale(1.1);
+}
+
+.p3 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.p4:hover {
+    transform: scale(1.1);
+}
+
+.p4 {
+    transition: 0.2s ease-in-out;
+}
+
+.p5:hover {
+    transform: scale(1.1);
+}
+
+.p5 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.grid2 {
+    
+    display: none;
+}
+
+#Contact {
+    
+     margin: 0px 60px 0px 60px; 
+}
+
+.mainp3 {
+    font-size: 1.7em;
+    margin-bottom: 8%;
+}
+
+.social li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin-right: .7em;
+    font-size: 1.4em;
+}
+
+.social {
+    margin-bottom: 15%;
+}
+
+.social a:hover{
+    text-decoration: line-through;
+    color: white;
+}
+
+a {
+    text-decoration: line-through;
+    color: white;
+}
+    
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+img.logo {
+    
+max-width:3.3em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    margin-left: 50px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.home{
+   
+    margin: 0px 70px 0px 70px; 
+    
+}
+
+.landing {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10%;
+    margin-top: 15%;
+    margin-bottom: 25%;
+}
+
+.illustration{
+    width: 100%;           
+}
+
+.mainh {
+    font-size: 2.8em;
+    margin-bottom: 7%;
+}
+
+.mainp{
+    
+    font-size: 1.8em;
+    margin-bottom: 10%;
+}
+
+.btn{
+    
+    display: inline;
+    font-size: 1.8em;
+    border: 2px solid white;
+    padding:  13px 23px 13px 23px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    color: #110f14;
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+#Elements {
+    
+     margin: 0px 70px 0px 70px; 
+}
+
+.mainh2 {
+    
+     font-size: 2.8em;
+    margin-bottom: 7%;
+}
+
+.mainp2 {
+    
+     font-size: 1.8em;
+    margin-bottom: 10%;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 6%;
+    padding: 0px;
+    
+}
+    
+.p1:hover {
+    transform: scale(1.1);
+}
+
+.p1 {
+    transition: 0.2s ease-in-out;
+}
+
+.p2:hover {
+    transform: scale(1.1);
+}
+
+.p2 {
+    transition: 0.2s ease-in-out;
+}
+
+.p3:hover {
+    transform: scale(1.1);
+}
+
+.p3 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.p4:hover {
+    transform: scale(1.1);
+}
+
+.p4 {
+    transition: 0.2s ease-in-out;
+}
+
+.p5:hover {
+    transform: scale(1.1);
+}
+
+.p5 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.grid2 {
+    
+    display: none;
+}
+
+#Contact {
+    
+     margin: 0px 70px 0px 70px; 
+}
+
+.mainp3 {
+    font-size: 1.8em;
+    margin-bottom: 8%;
+}
+
+.social li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 1em;
+    font-size: 1.6em;
+}
+
+.social {
+    margin-bottom: 13%;
+}
+
+.social a:hover{
+    text-decoration: line-through;
+    color: white;
+}
+
+a {
+    text-decoration: line-through;
+    color: white;
+}
+    
+}
+
+
+
+
+@media (min-width: 900px) {
+    
+img.logo {
+    
+max-width:3.5em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    margin-left: 60px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.home{
+   
+    margin: 0px 80px 0px 80px; 
+    
+}
+
+.landing {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10%;
+    margin-top: 12%;
+    margin-bottom: 22%;
+}
+
+.illustration{
+    width: 100%;           
+}
+
+.mainh {
+    font-size: 3em;
+    margin-bottom: 6%;
+}
+
+.mainp{
+    
+    font-size: 2em;
+    margin-bottom: 10%;
+}
+
+.btn{
+    
+    display: inline;
+    font-size: 2em;
+    border: 2px solid white;
+    padding:  15px 25px 15px 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    color: #110f14;
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+#Elements {
+    
+     margin: 0px 80px 0px 80px; 
+}
+
+.mainh2 {
+    
+     font-size: 3em;
+    margin-bottom: 6%;
+}
+
+.mainp2 {
+    
+     font-size: 2em;
+    margin-bottom: 10%;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 6%;
+    padding: 0px;
+    
+}
+    
+.p1:hover {
+    transform: scale(1.1);
+}
+
+.p1 {
+    transition: 0.2s ease-in-out;
+}
+
+.p2:hover {
+    transform: scale(1.1);
+}
+
+.p2 {
+    transition: 0.2s ease-in-out;
+}
+
+.p3:hover {
+    transform: scale(1.1);
+}
+
+.p3 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.p4:hover {
+    transform: scale(1.1);
+}
+
+.p4 {
+    transition: 0.2s ease-in-out;
+}
+
+.p5:hover {
+    transform: scale(1.1);
+}
+
+.p5 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.grid2 {
+    
+    display: none;
+}
+
+#Contact {
+    
+     margin: 0px 80px 0px 80px; 
+}
+
+.mainp3 {
+    font-size: 2em;
+    margin-bottom: 7%;
+}
+
+.social li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 1.2em;
+    font-size: 1.8em;
+}
+
+.social {
+    margin-bottom: 10%;
+}
+
+.social a:hover{
+    text-decoration: line-through;
+    color: white;
+}
+
+a {
+    text-decoration: line-through;
+    color: white;
+}
+    
+}
+
+
+
+
+@media (min-width: 1080px) {
+    
+img.logo {
+    
+max-width:3.7em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    margin-left: 60px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.home{
+   
+    margin: 0px 80px 0px 80px; 
+    
+}
+
+.landing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 7%;
+    margin-top: 11%;
+    margin-bottom: 11%;
+}
+
+.illustration{
+    width: 100%;
+    margin-top: 19%;
+}
+
+.mainh {
+    font-size: 3em;
+    margin-bottom: 9%;
+}
+
+.mainp{
+    
+    font-size: 2em;
+    margin-bottom: 13%;
+}
+
+.btn{
+    
+    display: inline;
+    font-size: 2em;
+    border: 2px solid white;
+    padding:  15px 25px 15px 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    color: #110f14;
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+#Elements {
+    
+     margin: 0px 80px 0px 80px; 
+}
+
+.mainh2 {
+    
+     font-size: 3em;
+    margin-bottom: 5%;
+}
+
+.mainp2 {
+    
+     font-size: 2em;
+    margin-bottom: 8%;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 5%;
+    
+}
+    
+.p1:hover {
+    transform: scale(1.1);
+}
+
+.p1 {
+    transition: 0.2s ease-in-out;
+}
+
+.p2:hover {
+    transform: scale(1.1);
+}
+
+.p2 {
+    transition: 0.2s ease-in-out;
+}
+
+.p3:hover {
+    transform: scale(1.1);
+}
+
+.p3 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.p4:hover {
+    transform: scale(1.1);
+}
+
+.p4 {
+    transition: 0.2s ease-in-out;
+}
+
+.p5:hover {
+    transform: scale(1.1);
+}
+
+.p5 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.grid2 {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin-bottom: 8%;
+    font-size: 1em;
+    
+}
+
+#Contact {
+    
+     margin: 0px 80px 0px 80px; 
+}
+
+.mainp3 {
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+.social li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 1.2em;
+    font-size: 1.8em;
+}
+
+.social {
+    margin-bottom: 9%;
+}
+
+.social a:hover{
+    text-decoration: line-through;
+    color: white;
+}
+
+a {
+    text-decoration: line-through;
+    color: white;
+}
+    
+} 
+
+
+
+
+@media (min-width: 1366px) {
+    
+img.logo {
+    
+max-width:3.7em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    margin-left: 60px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.home{
+   
+    margin: 0px 80px 0px 80px; 
+    
+}
+
+.landing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 7%;
+    margin-top: 11%;
+    margin-bottom: 11%;
+}
+
+.illustration{
+    width: 100%;
+    margin-top: 0%;
+}
+
+.mainh {
+    font-size: 3em;
+    margin-bottom: 6%;
+}
+
+.mainp{
+    
+    font-size: 2em;
+    margin-bottom: 10%;
+}
+
+.btn{
+    
+    display: inline;
+    font-size: 2em;
+    border: 2px solid white;
+    padding:  15px 25px 15px 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    color: #110f14;
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+#Elements {
+    
+     margin: 0px 80px 0px 80px; 
+}
+
+.mainh2 {
+    
+     font-size: 3em;
+    margin-bottom: 3%;
+}
+
+.mainp2 {
+    
+     font-size: 2em;
+    margin-bottom: 8%;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 5%;
+    
+}
+    
+.p1:hover {
+    transform: scale(1.1);
+}
+
+.p1 {
+    transition: 0.2s ease-in-out;
+}
+
+.p2:hover {
+    transform: scale(1.1);
+}
+
+.p2 {
+    transition: 0.2s ease-in-out;
+}
+
+.p3:hover {
+    transform: scale(1.1);
+}
+
+.p3 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.p4:hover {
+    transform: scale(1.1);
+}
+
+.p4 {
+    transition: 0.2s ease-in-out;
+}
+
+.p5:hover {
+    transform: scale(1.1);
+}
+
+.p5 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.grid2 {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin-bottom: 8%;
+    font-size: 1em;
+    
+}
+
+#Contact {
+    
+     margin: 0px 80px 0px 80px; 
+}
+
+.mainp3 {
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+.social li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 1.2em;
+    font-size: 1.8em;
+}
+
+.social {
+    margin-bottom: 9%;
+}
+
+.social a:hover{
+    text-decoration: line-through;
+    color: white;
+}
+
+a {
+    text-decoration: line-through;
+    color: white;
+}
+    
+}
+
+
+
+
+@media (min-width: 1600px) {
+
+    
+img.logo {
+    
+max-width:4em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.7em;
+    margin-left: 75px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2.7%;
+    padding-bottom: 2.7%;
+}
+
+.home{
+   
+    margin: 0px 100px 0px 100px; 
+    
+}
+
+.landing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+
+.illustration{
+    width: 100%;
+    margin-top: 2%;
+}
+
+.mainh {
+    font-size: 3.5em;
+    margin-bottom: 7%;
+}
+
+.mainp{
+    
+    font-size: 2.5em;
+    margin-bottom: 11%;
+}
+
+.btn{
+    
+    display: inline;
+    font-size: 2.5em;
+    border: 2px solid white;
+    padding:  17px 27px 17px 27px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    color: #110f14;
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+#Elements {
+    
+     margin: 0px 100px 0px 100px; 
+}
+
+.mainh2 {
+    
+     font-size: 3.5em;
+    margin-bottom: 3%;
+}
+
+.mainp2 {
+    
+     font-size: 2.5em;
+    margin-bottom: 8%;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 5%;
+    
+}
+    
+.p1:hover {
+    transform: scale(1.1);
+}
+
+.p1 {
+    transition: 0.2s ease-in-out;
+}
+
+.p2:hover {
+    transform: scale(1.1);
+}
+
+.p2 {
+    transition: 0.2s ease-in-out;
+}
+
+.p3:hover {
+    transform: scale(1.1);
+}
+
+.p3 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.p4:hover {
+    transform: scale(1.1);
+}
+
+.p4 {
+    transition: 0.2s ease-in-out;
+}
+
+.p5:hover {
+    transform: scale(1.1);
+}
+
+.p5 {
+    transition: 0.2s ease-in-out;
+    
+}
+
+.grid2 {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin-bottom: 8%;
+    font-size: 1.4em;
+    
+}
+
+#Contact {
+    
+     margin: 0px 100px 0px 100px; 
+}
+
+.mainp3 {
+    font-size: 2.5em;
+    margin-bottom: 4%;
+}
+
+.social li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 1.5em;
+    font-size: 2.2em;
+}
+
+.social {
+    margin-bottom: 7%;
+}
+
+.social a:hover{
+    text-decoration: line-through;
+    color: white;
+}
+
+a {
+    text-decoration: line-through;
+    color: white;
+}
+    
+}
+    
+
+

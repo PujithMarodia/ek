@@ -1,0 +1,884 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    
+     background-color: #0f0f0f;
+     color: white;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+html {
+    
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Playfair Display black', serif;
+}
+
+h2 {  
+    font-family: 'Roboto light', sans-serif;
+}
+
+p {
+     font-family: 'Roboto light', sans-serif;
+}
+
+a {
+    font-family: 'Roboto light', sans-serif;
+   
+}
+
+img {
+    width: 100%;
+}
+
+img.logo {
+    
+max-width:3.7em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    margin-left: 60px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.home {
+     
+    margin: 0px 80px 0px 80px;
+}
+
+.heading {
+    margin-top: 11%;
+    margin-bottom: 11%;
+}
+
+.mainh {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 3%;
+        
+}
+
+.mainp {
+    font-size: 2em;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 1.4em;
+}
+
+.grid1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 11%;
+}
+
+.p1 {
+    max-width: 25%;
+}
+
+.mainh2 {
+    font-size: 2em;
+    margin-bottom: 3%;
+}
+
+.mainp2 {
+    font-size: 2em;
+    margin-bottom: 1.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.mainh3 {
+    font-size: 3em;
+    padding-left: 5%;
+    margin-bottom: 3%;
+    
+}
+
+.space {
+    margin-bottom: 11%;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    
+img.logo {
+    
+max-width:2.8em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    margin-left: 40px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.home {
+     
+    margin: 0px 40px 0px 40px;
+}
+
+.heading {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.mainh {
+    font-size: 2.4em;
+    text-align: left;
+    margin-bottom: 7%;
+    padding-left: 3%; 
+        
+}
+
+.mainp {
+    font-size: 1.3em;
+    text-align: left;
+    padding-left: 3%;
+    padding-right: 3%;
+    line-height: 1.4em;
+    text-align-last: left;
+    text-justify: left;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    grid-row-gap: 7%;
+    margin-bottom: 22%;
+}
+
+.p1 {
+    max-width: 100%;
+}
+
+.mainh2 {
+    font-size: 1.2em;
+    margin-bottom: 5%;
+    padding-left: 3%;
+}
+
+.mainp2 {
+    font-size: 1.3em;
+    margin-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+
+.mainh3 {
+    font-size: 2.4em;
+    padding-left: 3%;
+    margin-bottom: 7%;
+    
+}
+
+.space {
+    margin-bottom: 25%;
+}
+    
+}
+    
+    
+
+@media (min-width: 600px) {
+
+img.logo {
+    
+max-width:3em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    margin-left: 40px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.home {
+     
+    margin: 0px 60px 0px 60px;
+}
+
+.heading {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.mainh {
+    font-size: 2.7em;
+    text-align: left;
+    margin-bottom: 7%;
+    padding-left: 3%; 
+        
+}
+
+.mainp {
+    font-size: 1.6em;
+    text-align: left;
+    padding-left: 3%;
+    padding-right: 3%;
+    line-height: 1.4em;
+    text-align-last: left;
+    text-justify: left;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    grid-row-gap: 7%;
+    margin-bottom: 22%;
+}
+
+.p1 {
+    max-width: 100%;
+}
+
+.mainh2 {
+    font-size: 1.3em;
+    margin-bottom: 4%;
+    padding-left: 3%;
+}
+
+.mainp2 {
+    font-size: 1.6em;
+    margin-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+
+.mainh3 {
+    font-size: 2.7em;
+    padding-left: 3%;
+    margin-bottom: 7%;
+    
+}
+
+.space {
+    margin-bottom: 20%;
+}
+    
+}
+
+
+
+
+@media (min-width: 768px) {
+    
+
+img.logo {
+    
+max-width:3.3em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    margin-left: 50px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.home {
+     
+    margin: 0px 70px 0px 70px;
+}
+
+.heading {
+    margin-top: 13%;
+    margin-bottom: 13%;
+}
+
+.mainh {
+    font-size: 2.8em;
+    text-align: left;
+    margin-bottom: 7%;
+    padding-left: 3%; 
+        
+}
+
+.mainp {
+    font-size: 1.7em;
+    text-align: left;
+    padding-left: 3%;
+    padding-right: 3%;
+    line-height: 1.4em;
+    text-align-last: left;
+    text-justify: left;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    grid-row-gap: 7%;
+    margin-bottom: 17%;
+}
+
+.p1 {
+    max-width: 100%;
+}
+
+.mainh2 {
+    font-size: 1.4em;
+    margin-bottom: 4%;
+    padding-left: 3%;
+}
+
+.mainp2 {
+    font-size: 1.7em;
+    margin-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+
+.mainh3 {
+    font-size: 2.8em;
+    padding-left: 3%;
+    margin-bottom: 7%;
+    
+}
+
+.space {
+    margin-bottom: 15%;
+}
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 900px) {
+    
+img.logo {
+    
+max-width:3.5em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    margin-left: 60px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.home {
+     
+    margin: 0px 80px 0px 80px;
+}
+
+.heading {
+    margin-top: 11%;
+    margin-bottom: 11%;
+}
+
+.mainh {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 6%;
+    padding: 0%;
+        
+}
+
+.mainp {
+    font-size: 2em;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    line-height: 1.4em;
+    text-align:justify;
+    text-align-last: center;
+}
+
+.grid1 {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 13%;
+}
+
+.p1 {
+    max-width: 30%;
+}
+
+.mainh2 {
+    font-size: 1.4em;
+    margin-bottom: 5%;
+    padding-left: 0%;
+}
+
+.mainp2 {
+    font-size: 2em;
+    margin-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+
+.mainh3 {
+    font-size: 3em;
+    padding-left: 3%;
+    margin-bottom: 6%;
+    
+}
+
+.space {
+    margin-bottom: 13%;
+}
+    
+}
+
+
+
+
+
+@media (min-width: 1080px) {
+    
+img.logo {
+    
+max-width:3.7em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    margin-left: 60px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.home {
+     
+    margin: 0px 80px 0px 80px;
+}
+
+.heading {
+    margin-top: 11%;
+    margin-bottom: 11%;
+}
+
+.mainh {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 6%;
+    padding: 0%;
+        
+}
+
+.mainp {
+    font-size: 2em;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.4em;
+    text-align:justify;
+    text-align-last: center;
+}
+
+.grid1 {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 11%;
+}
+
+.p1 {
+    max-width: 25%;
+}
+
+.mainh2 {
+    font-size: 1.5em;
+    margin-bottom: 5%;
+    padding-left: 0%;
+}
+
+.mainp2 {
+    font-size: 2em;
+    margin-bottom: 2%;
+    padding-left:  5%;
+    padding-right: 5%;
+    
+}
+
+.mainh3 {
+    font-size: 3em;
+    padding-left: 5%;
+    margin-bottom: 6%;
+    
+}
+
+.space {
+    margin-bottom: 11%;
+}
+    
+}
+
+
+
+
+
+
+@media (min-width: 1366px) {
+    
+img.logo {
+    
+max-width:3.7em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    margin-left: 60px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.home {
+     
+    margin: 0px 80px 0px 80px;
+}
+
+.heading {
+    margin-top: 11%;
+    margin-bottom: 11%;
+}
+
+.mainh {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 6%;
+    padding: 0%;
+        
+}
+
+.mainp {
+    font-size: 2em;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.4em;
+    text-align:justify;
+    text-align-last: center;
+}
+
+.grid1 {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 11%;
+}
+
+.p1 {
+    max-width: 25%;
+}
+
+.mainh2 {
+    font-size: 1.5em;
+    margin-bottom: 5%;
+    padding-left: 0%;
+}
+
+.mainp2 {
+    font-size: 2em;
+    margin-bottom: 2%;
+    padding-left:  5%;
+    padding-right: 5%;
+    
+}
+
+.mainh3 {
+    font-size: 3em;
+    padding-left: 5%;
+    margin-bottom: 6%;
+    
+}
+
+.space {
+    margin-bottom: 11%;
+}
+    
+}
+
+
+@media (min-width: 1600px) {
+    
+img.logo {
+    
+max-width: 4em;
+height: auto;    
+}
+
+.navbar {
+    text-align: right;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.7em;
+    margin-left: 75px;
+}
+
+nav a:hover {
+    
+    text-decoration: line-through;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1a1a1a;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2.7%;
+    padding-bottom: 2.7%;
+}
+
+.home {
+     
+    margin: 0px 100px 0px 100px;
+}
+
+.heading {
+    margin-top: 9%;
+    margin-bottom: 9%;
+}
+
+.mainh {
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom: 6%;
+    padding: 0%;
+        
+}
+
+.mainp {
+    font-size: 2.5em;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.4em;
+    text-align:justify;
+    text-align-last: center;
+}
+
+.grid1 {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 9%;
+}
+
+.p1 {
+    max-width: 33%;
+}
+
+.mainh2 {
+    font-size: 2.3em;
+    margin-bottom: 6%;
+    padding-left: 0%;
+}
+
+.mainp2 {
+    font-size: 2.5em;
+    margin-bottom: 2%;
+    padding-left:  5%;
+    padding-right: 5%;
+    
+}
+
+.mainh3 {
+    font-size: 3.5em;
+    padding-left: 5%;
+    margin-bottom: 6%;
+    
+}
+
+.space {
+    margin-bottom: 9%;
+}
+    
+}
+
+    
+    
+
